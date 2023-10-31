@@ -6,7 +6,8 @@ import midi_instrument_numbers
 
 
 #from dishwasher_rythm import * 
-from i_have_to_kiss_you import * 
+#from i_have_to_kiss_you import * 
+from drum_lines import * 
 
 
 def main():
