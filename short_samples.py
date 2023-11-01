@@ -7,7 +7,7 @@ import music_functions
 #add more configuration
 
 #https://beatsure.com/common-drum-beats/#standard
-SONG_NAME = 'Troubled with Yourself'
+SONG_NAME = 'SHORT_SAMPLES'
 
 tempo = 60
 
@@ -34,7 +34,15 @@ volume = 100
 music_frames_map[(len(music_frames_map),acoustic_grand_piano)] = [
     {'number_of_cycles': 1,
     'music': [
+        (C4_c,whole,volume),
+        (G4_c,whole,volume),
+        (a4_c,whole,volume),
+        (F4_c,whole,volume),
         
+        
+        
+        
+        (a_minor_chord,whole,volume),   # 3, 4
         
     ]}
 ]
