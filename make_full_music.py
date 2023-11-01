@@ -7,7 +7,9 @@ import midi_instrument_numbers
 
 #from dishwasher_rythm import * 
 #from i_have_to_kiss_you import * 
-from drum_lines import * 
+#from drum_lines import * 
+#from troubled_with_yourself import * 
+from short_samples import * 
 
 
 def main():
@@ -17,15 +19,9 @@ def main():
     midi_file = MIDIFile(number_of_tracks)
     midi_file.addTempo(track=0, time=0, tempo=tempo)
     
-    
-    
-    
-    
-    base_note = 60 #middle C
-    degrees = [base_note, base_note+4, base_note+7] #major
+    #base_note = 60 #middle C
+    #degrees = [base_note, base_note+4, base_note+7] #major
     #degrees = [base_note, base_note+3, base_note+7]  #minor
-    
-    
     
     for track_tuple in music_frames_map:
         tc_idx, instrument_index = track_tuple
